@@ -1,0 +1,33 @@
+{
+  "name": "evalocity",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Evalocity — LLM evaluation framework grounded in 4 thesis primitives: Time, Causality, Information, Context",
+  "author": "Bree Yard",
+  "license": "Apache-2.0",
+  "type": "module",
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=10.0.0"
+  },
+  "scripts": {
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "typecheck": "turbo run typecheck",
+    "lint": "turbo run lint",
+    "lint:fix": "turbo run lint:fix",
+    "format": "prettier --write \"**/*.{ts,js,json,md}\"",
+    "format:check": "prettier --check \"**/*.{ts,js,json,md}\""
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.0.0",
+    "@typescript-eslint/parser": "^8.0.0",
+    "eslint": "^9.0.0",
+    "prettier": "^3.0.0",
+    "turbo": "^2.0.0",
+    "typescript": "^5.5.0",
+    "typescript-eslint": "^8.57.0",
+    "vitest": "^2.0.0"
+  },
+  "packageManager": "pnpm@10.32.1"
+}
